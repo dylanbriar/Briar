@@ -2,6 +2,7 @@
 import { ref } from 'vue'
 
 const count = ref(false)
+
 </script>
 
 <template>
@@ -10,14 +11,14 @@ const count = ref(false)
   <div class="welc-statement">
     <br>
     <p>Hello there! It looks like you've caught the very first iteration of my portfolio website.</p>
-    <p>There's not much to look at here for now, but that's because it's fresh and I wanted to make sure I had something up and running while I work on the fully fleshed out version.</p>
-    <p>So while we wait for the full version to be deployed, let's check out my portfolio!</p>
+    <p>There's not much to look at here for now, but that's because it's fresh and incomplete; I wanted to have something up and running while I work to achieve the full vision I have for it.</p>
+    <p>So while we wait for the next iteration to be deployed, let's check out my portfolio!</p>
   </div>
   <div class="portfolio">
     <ul>
       <li>
         <a href="https://github.com/oslabs-beta/BuQL">BuQL</a>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;our baby</p>
+        <p class="portItemDesc">&nbsp;&nbsp;&nbsp;&nbsp;BuQL is a lightweight npm package for server-side GraphQL query caching in the Bun runtime environment. </p>
       </li>
     </ul>
   </div>
