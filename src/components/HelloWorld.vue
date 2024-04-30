@@ -20,6 +20,18 @@ const count = ref(false)
           <a href="https://github.com/oslabs-beta/BuQL" class="portList__name">BuQL</a>
           <p class="portList__desc">&nbsp;&nbsp;&nbsp;&nbsp;BuQL is a lightweight npm package for server-side GraphQL query caching in the Bun runtime environment. </p>
         </li>
+        <li>
+          <a href="https://github.com/dylanbriar/Cyber-Stars/tree/dev" class="portList__name">Cyber Stars</a>
+          <p class="portList__desc">&nbsp;&nbsp;&nbsp;&nbsp; Inspired by the New York Times' daily games, Cyber Stars is a daily space trivia quiz powered by NASA's "Astronomy Picture of the Day" (or APOD) API.</p>
+        </li>
+        <li>
+          <a href="https://github.com/dylanbriar/coolercards/tree/main" class="portList__name">coolercards</a>
+          <p class="portList__desc">&nbsp;&nbsp;&nbsp;&nbsp;As an iteration on a project known as "coolcards", this Quizlet clone includes greater test coverage, bug fixes, and some additional features. </p>
+        </li>
+        <li>
+          <a href="https://github.com/dylanbriar/Stock-Game" class="portList__name">Stock Game</a>
+          <p class="portList__desc">&nbsp;&nbsp;&nbsp;&nbsp;Created during an age of rampant financial misinformation, this paper trading platform is made to allow a paper-trading practice run before investing real money. </p>
+        </li>
       </ul>
     </div>
   </div>

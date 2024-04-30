@@ -46,11 +46,13 @@ h1 {
 }
 
 .portList {
+  overflow-y: scroll;
   max-width: 50%;
+  max-height: 300px;
 }
 
 .portList__name {
-  font-size: 1.4em;
+  font-size: 1.6em;
 }
 
 ul {
