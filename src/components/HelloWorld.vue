@@ -4,17 +4,29 @@ import { ref } from 'vue'
 const count = ref(false)
 
 </script>
-
+<!-- window.scrollTo(0, 0) -->
 <template>
   <div id="portfolio">
     <h1>dylan briar</h1>
     <div class="portWelcome">
       <br>
-      <p>hello there, it looks like you've caught the very first iteration of my portfolio website.</p>
-      <p>there's not much to look at here for now, but that's because it's fresh and incomplete; i wanted to have something up and running while i work to achieve the full vision i have for it.</p>
-      <p>so while we wait for the next iteration to be deployed, let's check out my portfolio:</p>
+      <p>hello there! it looks like you've caught the very first iteration of my portfolio website.</p>
+      <p>there's not much to look at here for now, but that's because it's fresh and incomplete; I wanted to have something up and running while I work to achieve the full vision I have for it.</p>
+      <p>so while we wait for the next iteration to be deployed, let's talk about who I am, and what I can do.</p>
+    </div>
+    <div class="aboutMe">
+      <h2>re: dylan</h2>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp; I am a software engineer with a passion first and foremost for building and maintaining <b>secure</b> applications. 
+        As every engineer's toolbox grows with each library, framework, language, etc., so does the arsenal of hackers. It is my goal to make sure the
+        applications I construct are fortified well. 
+      </p>
+      <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;Beyond that, I am a person with a love for people. <b>Hospitality</b> is a core value of mine; I want others to feel welcome, appreciated, seen, and heard. 
+        As a team member, I look for opportunities to mentor and encourage. As an engineer, I look for opportunities to better the UX. Every interaction should be a net positive.
+      </p>
     </div>
     <div class="portList">
+      <h2>re: portfolio</h2>
       <ul>
         <li>
           <a href="https://github.com/oslabs-beta/BuQL" class="portList__name">BuQL</a>
