@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+// import { ref } from 'vue'
 
-const count = ref(false)
+// const count = ref(false)
 
 </script>
 <!-- window.scrollTo(0, 0) -->
@@ -10,9 +10,9 @@ const count = ref(false)
     <h1>dylan briar</h1>
     <div class="portWelcome">
       <br>
-      <p>hello there! it looks like you've caught the very first iteration of my portfolio website.</p>
-      <p>there's not much to look at here for now, but that's because it's fresh and incomplete; I wanted to have something up and running while I work to achieve the full vision I have for it.</p>
-      <p>so while we wait for the next iteration to be deployed, let's talk about who I am, and what I can do.</p>
+      <p>hello there! it looks like you've caught the very first iteration of my portfolio website.<br><br>
+      there's not much to look at here for now, but that's because it's fresh and incomplete; I wanted to have something up and running while I work to achieve the full vision I have for it.<br><br>
+      so while we wait for the next iteration to be deployed, let's talk about who I am, and what I can do.</p>
     </div>
     <div class="aboutMe">
       <h2>re: dylan</h2>

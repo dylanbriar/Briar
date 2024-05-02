@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #3f372c;
+  background-color: #272c28;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -64,13 +64,15 @@ h2 {
 }
 
 .portList__name {
-  font-size: 1.6em;
+  font-size: 1.7em;
+  /* font-weight: bold; */
 }
 
 ul {
   padding-inline-start: 3%;
   overflow-y: scroll;
   max-height: 400px;
+  /* border-left: 8px double rgb(107, 107, 107) */
 }
 
 p {
@@ -78,7 +80,7 @@ p {
 }
 
 a {
-  color: rgb(81, 143, 90)
+  color: rgb(178, 160, 143);
 }
 
 button {
@@ -122,3 +124,5 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
