@@ -18,9 +18,7 @@
       <h2>re: dylan</h2>
       <p>&nbsp;&nbsp;&nbsp;&nbsp; I am a software engineer with a passion first and foremost for building and maintaining <b>secure</b> applications. 
         As every engineer's toolbox grows with each library, framework, language, etc., so does the arsenal of hackers. It is my goal to make sure the
-        applications I construct are fortified well. 
-      </p>
-      <p>
+        applications I construct are fortified well. <br><br>
         &nbsp;&nbsp;&nbsp;&nbsp;Beyond that, I am a person with a love for people. <b>Hospitality</b> is a core value of mine; I want others to feel welcome, appreciated, seen, and heard. 
         As a team member, I look for opportunities to mentor and encourage. As an engineer, I look for opportunities to better the UX. Every interaction should be a net positive.
       </p>
