@@ -1,8 +1,11 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import LandingPage from './components/LandingPage.vue';
 </script>
 
 <template>
-  <HelloWorld/>
-  
+  <LandingPage/>
 </template>
+
+<style>
+
+</style>

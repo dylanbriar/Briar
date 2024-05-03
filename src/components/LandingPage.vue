@@ -1,7 +1,6 @@
 <script setup lang="ts">
-// import { ref } from 'vue'
 
-// const count = ref(false)
+import DarkMode from '../components/DarkMode.vue';
 
 </script>
 <!-- window.scrollTo(0, 0) -->
@@ -26,6 +25,7 @@
     <div class="portList">
       <h2>re: portfolio</h2>
       <ul>
+        <br>
         <li>
           <a href="https://github.com/oslabs-beta/BuQL" class="portList__name">BuQL</a>
           <p class="portList__desc">&nbsp;&nbsp;&nbsp;&nbsp;BuQL is a lightweight npm package for server-side GraphQL query-response caching in the Bun runtime environment, with the goal of bettering API management for Bun developers. </p>
@@ -39,18 +39,14 @@
           <p class="portList__desc">&nbsp;&nbsp;&nbsp;&nbsp;As an iteration on a project known as "coolcards", this Quizlet clone includes greater test coverage, bug fixes, and some additional features than the project it spawned from. Create a deck and get studying!</p>
         </li>
         <li>
-          <a href="https://github.com/dylanbriar/Stock-Game" class="portList__name">Stock Game</a>
-          <p class="portList__desc">&nbsp;&nbsp;&nbsp;&nbsp;Created during an age of rampant financial misinformation, this paper trading platform is made to allow those interested in the stock market a practice run before investing real money. </p>
+          <a href="https://github.com/dylanbriar/The-Stockyards" class="portList__name">The Stockyards</a>
+          <p class="portList__desc">&nbsp;&nbsp;&nbsp;&nbsp;Created by two Texans and a couple out-of-towners, this paper trading platform is made to allow those interested in the stock market a practice run before investing real money. </p>
         </li>
       </ul>
     </div>
+    <p id="comingSoon">Coming Soon: Dark/Light Toggling</p>
+    <!-- <DarkMode/> -->
   </div>
-  <!-- <div class="card">
-    <button type="button" @click="count = count ? false : true">Dark mode is {{ count }}</button>
-    <p>
-      This button will be for light/dark mode eventually
-    </p>
-  </div> -->
 </template>
 
 
