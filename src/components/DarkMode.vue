@@ -18,10 +18,12 @@ const currentTheme = computed<Record<string, string>>(() => (dark.value ? darkTh
 </script>
 
 <template>
-<label class="switch">
-  <input type="checkbox">
-  <span class="slider round"></span>
-</label>
+  <div class="darkButton" :style="currentTheme">
+      <button type="button" @click="dark = dark ? true : false"> Dark mode is {{ dark }} </button>
+      <p>
+        This button will be for light/dark mode eventually
+      </p>
+  </div>
 </template>
 
 <style scoped>

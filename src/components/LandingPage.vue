@@ -1,6 +1,6 @@
 <script setup lang="ts">
 
-import DarkMode from '../components/DarkMode.vue';
+// import DarkMode from '../components/DarkMode.vue';
 
 </script>
 <!-- window.scrollTo(0, 0) -->
