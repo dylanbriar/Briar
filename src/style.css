@@ -30,7 +30,7 @@ h1 {
   padding-top: 8%;
   max-width: var(--content-width);
   min-width: var(--content-width);
-  font-size: 2.5em;
+  font-size: 2.7em;
   font-weight: 100;
   line-height: 0.1;
   /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif */
@@ -72,8 +72,16 @@ h2 {
   /* font-weight: bold; */
 }
 
-#comingSoon {
-  font-size: 1.15em;
+#portSignOff {
+  max-width: var(--content-width);
+  min-width: var(--content-width);
+  text-align: center;
+  font-size: .9em;
+}
+
+#comingSoon{
+  text-align: center;
+  font-size: 1.1em;
   opacity: 0.5;
 }
 

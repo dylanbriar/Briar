@@ -9,7 +9,7 @@ import DarkMode from '../components/DarkMode.vue';
     <h1>dylan briar</h1>
     <div class="portWelcome">
       <br>
-      <p>hello there! it looks like you've caught the very first iteration of my portfolio website.<br><br>
+      <p>hello there! it looks like you've caught one of the first iterations of my portfolio website.<br><br>
       there's not much to look at here for now, but that's because it's fresh and incomplete; I wanted to have something up and running while I work to achieve the full vision I have for it.<br><br>
       so while we wait for the next iteration to be deployed, let's talk about who I am, and what I can do.</p>
     </div>
@@ -17,9 +17,10 @@ import DarkMode from '../components/DarkMode.vue';
       <h2>re: dylan</h2>
       <p>&nbsp;&nbsp;&nbsp;&nbsp; I am a software engineer with a passion first and foremost for building and maintaining <b>secure</b> applications. 
         As every engineer's toolbox grows with each library, framework, language, etc., so does the arsenal of hackers. It is my goal to make sure the
-        applications I construct are fortified well. <br><br>
+        applications I construct are fortified well. To see some talks I did on security, check out my <a href="https://youtube.com/@Dylan_Briar?si=9_rzJNRIbPfEy5W-">YouTube channel. </a> <br><br>
         &nbsp;&nbsp;&nbsp;&nbsp;Beyond that, I am a person with a love for people. <b>Empathy</b> is key in my communication, even in criticism; I want others to feel welcome, appreciated, seen, and heard. 
-        As a team member, I look for opportunities to mentor and encourage. As an engineer, I look for opportunities to better the UX. Every interaction should be a net positive.
+        As a team member, I look for opportunities to mentor and encourage. As an engineer, I look for opportunities to better the UX. Every interaction should be a net positive. <br><br>
+        For a more technical view, <a href="/assets/resume.pdf" download="/assets/resume.pdf">download my resume.</a>
       </p>
     </div>
     <div class="portList">
@@ -44,7 +45,10 @@ import DarkMode from '../components/DarkMode.vue';
         </li>
       </ul>
     </div>
-    <p id="comingSoon">Coming Soon: Dark/Light Toggling</p>
+    <div id="portSignOff">
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;To hear about updates to this website, or updates from my engineering journey in general, check out my <a href="https://twitter.com/DylanBriar">profile on X</a> or <a href="https://www.linkedin.com/in/dylanbriar/">LinkedIn.</a></p>
+      <p id="comingSoon">Coming Soon: <br> Socials Dropdown Button <br> Separate Pages (including a blog!) <br> Dark/Light Toggling</p>
+    </div>
     <DarkMode/>
   </div>
 </template>
