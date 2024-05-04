@@ -1,6 +1,6 @@
 <script setup lang="ts">
 
-// import DarkMode from '../components/DarkMode.vue';
+import DarkMode from '../components/DarkMode.vue';
 
 </script>
 <!-- window.scrollTo(0, 0) -->
@@ -18,13 +18,13 @@
       <p>&nbsp;&nbsp;&nbsp;&nbsp; I am a software engineer with a passion first and foremost for building and maintaining <b>secure</b> applications. 
         As every engineer's toolbox grows with each library, framework, language, etc., so does the arsenal of hackers. It is my goal to make sure the
         applications I construct are fortified well. <br><br>
-        &nbsp;&nbsp;&nbsp;&nbsp;Beyond that, I am a person with a love for people. <b>Hospitality</b> is a core value of mine; I want others to feel welcome, appreciated, seen, and heard. 
+        &nbsp;&nbsp;&nbsp;&nbsp;Beyond that, I am a person with a love for people. <b>Empathy</b> is key in my communication, even in criticism; I want others to feel welcome, appreciated, seen, and heard. 
         As a team member, I look for opportunities to mentor and encourage. As an engineer, I look for opportunities to better the UX. Every interaction should be a net positive.
       </p>
     </div>
     <div class="portList">
       <h2>re: portfolio</h2>
-      <ul>
+      <ul style="list-style-type: none;">
         <br>
         <li>
           <a href="https://github.com/oslabs-beta/BuQL" class="portList__name">BuQL</a>
@@ -45,7 +45,7 @@
       </ul>
     </div>
     <p id="comingSoon">Coming Soon: Dark/Light Toggling</p>
-    <!-- <DarkMode/> -->
+    <DarkMode/>
   </div>
 </template>
 
