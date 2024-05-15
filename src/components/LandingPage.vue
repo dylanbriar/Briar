@@ -54,9 +54,53 @@ import DarkMode from '../components/DarkMode.vue';
 </template>
 
 
-<!-- keeping this here as an example for later
 <style scoped>
-.read-the-docs {
-  color: #cd1313;
+
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-</style> -->
+
+.portWelcome {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.portList__name {
+  font-size: 1.7em;
+  /* font-weight: bold; */
+}
+
+#portSignOff {
+  text-align: center;
+  font-size: .9em;
+}
+
+#comingSoon{
+  text-align: center;
+  font-size: 1.1em;
+  opacity: 0.5;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+a {
+  color: rgb(178, 160, 143);
+}
+
+ul {
+  padding-inline-start: 5%;
+  padding-inline-end: 3%;
+  overflow-y: scroll;
+  max-height: 400px;
+  background-color: #17171736;
+  border-radius: 3%;
+  /* border-left: 8px double rgb(107, 107, 107) */
+}
+
+</style>

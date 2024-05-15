@@ -6,6 +6,6 @@ import LandingPage from './components/LandingPage.vue';
   <LandingPage/>
 </template>
 
-<style>
+<style scoped>
 
 </style>
