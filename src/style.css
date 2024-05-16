@@ -12,10 +12,10 @@
   --grey: #777777;
   --white: #ffffffca;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-synthesis: none; /*keeps browser from synthesizing italic/bold styling for fonts that don't have their own*/
+  text-rendering: optimizeLegibility; /*tells browser to make text more readible with spacing (between words and chars)*/
+  -webkit-font-smoothing: antialiased; /*smooths out jagged, digital lines into fading ones, specifically for the browser engine WebKit (Safari)*/
+  -moz-osx-font-smoothing: grayscale; /*similar thing but for firefox*/
 }
 
 body {
