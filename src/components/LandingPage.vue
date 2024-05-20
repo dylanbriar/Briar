@@ -90,7 +90,7 @@ p {
 }
 
 a {
-  color: rgb(178, 160, 143);
+  color: #EBDAC2;
 }
 
 ul {
