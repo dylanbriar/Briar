@@ -49,7 +49,9 @@ import DarkMode from '../components/DarkMode.vue';
       <p>&nbsp;&nbsp;&nbsp;&nbsp;To hear about updates to this website, or updates from my engineering journey in general, check out my <a href="https://twitter.com/DylanBriar">profile on X</a> or <a href="https://www.linkedin.com/in/dylanbriar/">LinkedIn.</a></p>
       <p id="comingSoon">Coming Soon: <br> Socials Dropdown Button <br> Separate Pages (including a blog!) <br> Dark/Light Toggling</p>
     </div>
-    <DarkMode/>
+    <div style="display: flex; justify-content: center;">
+      <DarkMode/>
+    </div>
   </div>
 </template>
 
@@ -59,19 +61,10 @@ import DarkMode from '../components/DarkMode.vue';
 #portfolio {
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
-
-.portWelcome {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
 }
 
 .portList__name {
   font-size: 1.7em;
-  /* font-weight: bold; */
 }
 
 #portSignOff {
@@ -99,7 +92,7 @@ ul {
   overflow-y: scroll;
   max-height: 400px;
   background-color: #17171736;
-  border-radius: 3%;
+  border-radius: 4%;
   /* border-left: 8px double rgb(107, 107, 107) */
 }
 
