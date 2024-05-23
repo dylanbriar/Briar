@@ -1,32 +1,18 @@
 <script setup lang="ts"> 
-// import { ref, computed} from 'vue'
 
-// const dark = ref(true);
 
-// const lightTheme = {
-//   '--bg-color': '#ffffff',
-//   '--text-color': '#333333',
-// }
-
-// const darkTheme = {
-//   '--bg-color': '#333333',
-//   '--text-color': '#ffffff',
-// }
-
-// const currentTheme = computed<Record<string, string>>(() => (dark.value ? darkTheme : lightTheme))
 
 </script>
 
 <template>
   <div class="switcher switcher-1">
-    <input type="checkbox" id="switcher-1">
-    <label for="switcher-1"></label>
+    <input type="checkbox" id="labeled">
+    <label for="labeled"></label>
   </div>
 </template>
 
 <style scoped lang="scss">
 
-/* provides fading, very subtle */
 // Define variables
 $switch-width: 150px;
 $switch-height: 40px;
@@ -97,19 +83,18 @@ div.switcher {
 
         // Inner shape color from dark to light
         + label {
-          left: 100px;
+          left: 102px;
           right: 10px;
           background: $white;
-          transition: left 0.4s 0.2s, right 0.6s, background 0.35s -0.1s;
+          transition: left 0.4s 0.2s, right 0.6s, background 0.45s -0.1s;
         }
       }
     }
   }
 
   label {
-    z-index: 1;
     position: absolute;
-    top: 10px;
+    top: 11px;
     bottom: 5px;
     border-radius: $label-radius;
   }
@@ -117,8 +102,6 @@ div.switcher {
   input {
     @include switch-base;
     appearance: none;
-    background-color: $black;
-    outline: none;
     font-family: Garamond, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
     &:before,
