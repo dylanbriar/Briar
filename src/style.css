@@ -3,13 +3,15 @@
   line-height: 1.5;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #272c28;
 
   /* all for the light/dark toggle */
   --black: #1E1E1E;
   --grey: #777777;
   --white: #ffffffca;
+
+  /* for the theme switching */
+  --links: #ebd5c2;
+  --ul-bg: #7a7a7a36;
 
   font-synthesis: none; /*keeps browser from synthesizing italic/bold styling for fonts that don't have their own*/
   text-rendering: optimizeLegibility; /*tells browser to make text more readible with spacing (between words and chars)*/
@@ -35,22 +37,40 @@ h2 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #5E2D00;
-    background-color: #FFEACB;
-  }
-  a {
-    color: #005812;
-  }
-  ul {
-    background-color: #ffffff5d;
-  }
+a {
+  color: var(--links);
 }
 
-@media (max-width: 600px){
+@media (max-width: 660px){
   body {
     max-width: 75%;
     margin: 0 auto;
   }
+}
+
+@media (max-width: 440px){
+  body {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 365px){
+  h1 {
+    font-size: 1.8em;
+  }
+}
+
+[color-scheme='dark']{
+  background-color: #272c28;
+  color: rgba(255, 255, 255, 0.87);
+  --links: #ebd5c2;
+  --ul-bg: #7a7a7a36;
+} 
+
+[color-scheme='light']{
+  background-color: #FFEACB;
+  color: #5E2D00;
+  --links: #005812;
+  --ul-bg: #ffffff5d;
 }

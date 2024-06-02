@@ -1,12 +1,9 @@
 <script setup lang="ts">
 
-import DarkMode from '../components/DarkMode.vue';
-
 </script>
 <!-- window.scrollTo(0, 0) -->
 <template>
   <div id="portfolio">
-    <h1>dylan briar</h1>
     <div class="portWelcome">
       <br>
       <p>hello there! it looks like you've caught one of the first iterations of my portfolio website.<br><br>
@@ -49,9 +46,6 @@ import DarkMode from '../components/DarkMode.vue';
       <p>&nbsp;&nbsp;&nbsp;&nbsp;To hear about updates to this website, or updates from my engineering journey in general, check out my <a href="https://twitter.com/DylanBriar">profile on X</a> or <a href="https://www.linkedin.com/in/dylanbriar/">LinkedIn.</a></p>
       <p id="comingSoon">Coming Soon: <br> Socials Dropdown Button <br> Separate Pages (including a blog!) <br> Dark/Light Toggling</p>
     </div>
-    <div style="display: flex; justify-content: center;">
-      <DarkMode/>
-    </div>
   </div>
 </template>
 
@@ -82,16 +76,12 @@ p {
   font-size: 1.5em;
 }
 
-a {
-  color: #EBDAC2;
-}
-
 ul {
   padding-inline-start: 5%;
   padding-inline-end: 3%;
   overflow-y: scroll;
   max-height: 400px;
-  background-color: #17171736;
+  background-color: #7a7a7a36;
   border-radius: 4%;
   /* border-left: 8px double rgb(107, 107, 107) */
 }

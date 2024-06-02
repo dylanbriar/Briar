@@ -1,21 +1,35 @@
 <script setup lang="ts"> 
 
+import { useDark, useToggle } from '@vueuse/core';
 
+const isDark = useDark({
+  selector: ":root", 
+  attribute: "color-scheme",
+  valueDark: 'dark',
+  valueLight: 'light',
+  disableTransition: false,
+})
+
+//the button defaults to dark, and it'd be a pain to save that to localStorage, 
+//so instead we're defaulting the dark mode with it
+isDark.value = true;
+
+const toggleDark = useToggle(isDark);
 
 </script>
 
 <template>
-  <div class="switcher switcher-1">
-    <input type="checkbox" id="labeled">
-    <label for="labeled"></label>
-  </div>
+    <div class="switcher switcher-1">
+      <input type="checkbox" id="darkSwitch" @click="toggleDark()">
+      <label for="darkSwitch"></label>
+    </div>
 </template>
 
 <style scoped lang="scss">
 
 // Define variables
-$switch-width: 150px;
-$switch-height: 40px;
+$switch-width: 120px;
+$switch-height: 32px;
 $switch-radius: 25px;
 $label-radius: 20px;
 
@@ -51,8 +65,8 @@ div.switcher {
 
         // Inner shape color from light to dark
         + label {
-          left: 15px;
-          right: 90px;
+          left: 17px;
+          right: 63px;
           background: $black;
           transition: left 0.6s, right 0.4s 0.2s;
         }
@@ -83,7 +97,7 @@ div.switcher {
 
         // Inner shape color from dark to light
         + label {
-          left: 102px;
+          left: 73px;
           right: 10px;
           background: $white;
           transition: left 0.4s 0.2s, right 0.6s, background 0.45s -0.1s;
@@ -94,8 +108,8 @@ div.switcher {
 
   label {
     position: absolute;
-    top: 11px;
-    bottom: 5px;
+    top: 10px;
+    bottom: 4px;
     border-radius: $label-radius;
   }
 
@@ -124,4 +138,5 @@ div.switcher {
     }
   }
 }
+
 </style>
