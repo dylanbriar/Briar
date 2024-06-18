@@ -10,9 +10,18 @@ import DarkMode from './components/DarkMode.vue';
       <DarkMode/>
     </div>
   </div>
+  <div style="display: flex; justify-content: space-around;">
+    <a id="test">about</a>
+    <a>portfolio</a>
+    <a>blog</a>
+  </div>
   <LandingPage/>
 </template>
 
 <style scoped>
+
+#test {
+  font-size:blueviolet;
+}
 
 </style>
