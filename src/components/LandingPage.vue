@@ -6,8 +6,11 @@
   <div id="portfolio">
     <div class="portWelcome">
       <br>
-      <p>hello there! it looks like you've caught one of the first iterations of my portfolio website.<br><br>
-      there's not much to look at here for now, but that's because it's fresh and incomplete; I wanted to have something up and running while I work to achieve the full vision I have for it.<br><br>
+      <div id="pic">
+        <p id="helloThere">hello there! it looks like you've caught one of the first iterations of my portfolio website.</p>
+        <img src="../../assets/meSmall.jpg" alt="a picture of me, a 20 something Caucasian male with a strawberry blonde manbun and red-tinted beard to match">
+      </div>
+      <p>there's not much to look at here for now, but that's because it's fresh and incomplete; I wanted to have something up and running while I work to achieve the full vision I have for it.<br><br>
       so while we wait for the next iteration to be deployed, let's talk about who I am, and what I can do.</p>
     </div>
     <div class="aboutMe">
@@ -55,6 +58,16 @@
 #portfolio {
   display: flex;
   flex-direction: column;
+}
+
+#pic {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#helloThere {
+  max-width: 50%;
 }
 
 .portList__name {
