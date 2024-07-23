@@ -7,21 +7,24 @@
     <div class="portWelcome">
       <br>
       <div id="pic">
-        <p id="helloThere">hello there! it looks like you've caught one of the first iterations of my portfolio website.</p>
-        <img src="../../assets/meSmall.jpg" alt="a picture of me, a 20 something Caucasian male with a strawberry blonde manbun and red-tinted beard to match">
+        <h3 id="helloThere">hello there! it looks like you've caught one of the first iterations of my portfolio website.</h3>
+        <img src="../../assets/meSmall.jpg" alt="me, a 20 something Caucasian male with a strawberry blonde manbun and red-tinted beard to match wearing a black shirt dotted with flowers, smiling at camera">
       </div>
       <p>there's not much to look at here for now, but that's because it's fresh and incomplete; I wanted to have something up and running while I work to achieve the full vision I have for it.<br><br>
       so while we wait for the next iteration to be deployed, let's talk about who I am, and what I can do.</p>
     </div>
     <div class="aboutMe">
       <h2>re: dylan</h2>
-      <p>&nbsp;&nbsp;&nbsp;&nbsp; I am a software engineer with a passion first and foremost for building and maintaining <b>secure</b> applications. 
-        As every engineer's toolbox grows with each library, framework, language, etc., so does the arsenal of hackers. It is my goal to make sure the
-        applications I construct are fortified well. To see some talks I did on security, check out my <a href="https://youtube.com/@Dylan_Briar?si=9_rzJNRIbPfEy5W-">YouTube channel. </a> <br><br>
-        &nbsp;&nbsp;&nbsp;&nbsp;Beyond that, I am a person with a love for people. <b>Empathy</b> is key in my communication, even in criticism; I want others to feel welcome, appreciated, seen, and heard. 
-        As a team member, I look for opportunities to mentor and encourage. As an engineer, I look for opportunities to better the UX. Every interaction should be a net positive. <br><br>
-        For a more technical view, <a href="/assets/resume.pdf" download="/assets/resume.pdf">download my resume.</a>
-      </p>
+      <h3>I am a software engineer with a passion first and foremost for <b>people</b>.</h3>
+        <p>Before my career as an engineer, I spent years in the customer service industry. Bad customer service always bothers me, and that includes digitally. Inconsiderate UI/UX can ruin someone's day. Let's fix that.
+        <br><br> This also shows itself in how I perform as an employee. I hear the term "empathetic engineering," thrown around often, but how often is it applied in its truest sense? I want others to feel welcome, 
+        appreciated, seen, and heard.<br> </p>
+      <h3>Beyond that, I am an engineer characterized by <b>curiosity</b>.</h3>
+        <p>I am not satisfied with the surface level. <br><br>
+          I don't use React because it's popular, or because it's what I was taught (actually I'm not even a big fan of React, but that's for another time). It is a tool, and I use it only if and when I need THAT tool.<br><br>
+          Engineering is facing a crisis in which newer engineers are often abandoning fundamentals, reaching for a framework because "that's just what you do." I'm not satisfied with frameworks, or even languages; I want to know why they work. 
+        </p><br>
+        <p style="text-align: center;">For a more technical view, <a href="/assets/resume.pdf" download="/assets/resume.pdf">download my resume.</a></p>
     </div>
     <div class="portList">
       <h2>re: portfolio</h2>
@@ -86,7 +89,12 @@
 }
 
 p {
-  font-size: 1.5em;
+  font-size: 1.2em;
+}
+
+h3 {
+  font-size: 1.4em;
+  font-weight: 500;
 }
 
 ul {
