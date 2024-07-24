@@ -7,24 +7,14 @@
     <div class="portWelcome">
       <br>
       <div id="pic">
-        <h3 id="helloThere">hello there! it looks like you've caught one of the first iterations of my portfolio website.</h3>
+        <h3 id="helloThere">hello there! nice to meet you. <br>this is me --></h3>
         <img src="../../assets/meSmall.jpg" alt="me, a 20 something Caucasian male with a strawberry blonde manbun and red-tinted beard to match wearing a black shirt dotted with flowers, smiling at camera">
       </div>
-      <p>there's not much to look at here for now, but that's because it's fresh and incomplete; I wanted to have something up and running while I work to achieve the full vision I have for it.<br><br>
-      so while we wait for the next iteration to be deployed, let's talk about who I am, and what I can do.</p>
+      <p>there's not much to look at here for now, but this thing is still fresh and incomplete; I wanted to have something up and running while I work to achieve the full vision I have for it.<br><br>
+      so while we wait for the next iteration to be deployed, feel free to peruse at your leisure.</p>
     </div>
-    <div class="aboutMe">
-      <h2>re: dylan</h2>
-      <h3>I am a software engineer with a passion first and foremost for <b>people</b>.</h3>
-        <p>Before my career as an engineer, I spent years in the customer service industry. Bad customer service always bothers me, and that includes digitally. Inconsiderate UI/UX can ruin someone's day. Let's fix that.
-        <br><br> This also shows itself in how I perform as an employee. I hear the term "empathetic engineering," thrown around often, but how often is it applied in its truest sense? I want others to feel welcome, 
-        appreciated, seen, and heard.<br> </p>
-      <h3>Beyond that, I am an engineer characterized by <b>curiosity</b>.</h3>
-        <p>I am not satisfied with the surface level. <br><br>
-          I don't use React because it's popular, or because it's what I was taught (actually I'm not even a big fan of React, but that's for another time). It is a tool, and I use it only if and when I need THAT tool.<br><br>
-          Engineering is facing a crisis in which newer engineers are often abandoning fundamentals, reaching for a framework because "that's just what you do." I'm not satisfied with frameworks, or even languages; I want to know why they work. 
-        </p><br>
-        <p style="text-align: center;">For a more technical view, <a href="/assets/resume.pdf" download="/assets/resume.pdf">download my resume.</a></p>
+    <div>
+        <p style="text-align: center;">Think I'm a pretty neat guy? <a href="/assets/resume.pdf" download="/assets/resume.pdf">Take a peek at my resume!</a></p>
     </div>
     <div class="portList">
       <h2>re: portfolio</h2>
@@ -40,7 +30,7 @@
         </li>
         <li>
           <a href="https://github.com/dylanbriar/coolercards/tree/main" class="portList__name">coolercards</a>
-          <p class="portList__desc">&nbsp;&nbsp;&nbsp;&nbsp;As an iteration on a project known as "coolcards", this Quizlet clone includes greater test coverage, bug fixes, and some additional features than the project it spawned from. Create a deck and get studying!</p>
+          <p class="portList__desc">&nbsp;&nbsp;&nbsp;&nbsp;As an iteration on a website known as "coolcards", this Quizlet clone includes greater test coverage, bug fixes, and some additional features than the project it spawned from. Create a deck and get studying!</p>
         </li>
         <li>
           <a href="https://github.com/dylanbriar/The-Stockyards" class="portList__name">The Stockyards</a>
@@ -50,7 +40,7 @@
     </div>
     <div id="portSignOff">
       <p>&nbsp;&nbsp;&nbsp;&nbsp;To hear about updates to this website, or updates from my engineering journey in general, check out my <a href="https://twitter.com/DylanBriar">profile on X</a> or <a href="https://www.linkedin.com/in/dylanbriar/">LinkedIn.</a></p>
-      <p id="comingSoon">Coming Soon: <br> Socials Dropdown Button <br> Separate Pages (including a blog!)</p>
+      <p id="comingSoon">Coming Soon: <br> Socials Dropdown Button <br> Blog posts <br> Fancy Styling <br> (i'm technically fullstack but i'm definitely more comfy on the backend) <br> (don't laugh at me)</p>
     </div>
   </div>
 </template>
