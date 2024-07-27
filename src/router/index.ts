@@ -1,7 +1,8 @@
 import {createRouter, createWebHistory} from 'vue-router';
 import LandingPage from '../components/LandingPage.vue';
 import AboutMe from '../components/AboutMe.vue'
-import Blog from '../components/Blog.vue'
+import Blog from '../components/Blog/Blog.vue'
+import Portfolio from '../components/Portfolio.vue';
 
 const routes = [
   {
@@ -18,6 +19,11 @@ const routes = [
     path: '/blog',
     name: 'Blog',
     component: Blog
+  },
+  {
+    path: '/portfolio',
+    name: 'Portfolio',
+    component: Portfolio
   },
 ]
 

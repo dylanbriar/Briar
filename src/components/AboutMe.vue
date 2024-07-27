@@ -3,7 +3,7 @@
 
 <template>
   <div>
-    <h2>re: dylan</h2>
+    <h2>Who I Am</h2>
       <h3>I am a software engineer with a passion first and foremost for <b>people</b>.</h3>
         <p>Before my career as an engineer, I spent years in the customer service industry. Bad customer service always bothers me, and that includes digitally. Inconsiderate UI/UX can ruin someone's day. Let's fix that.
         <br><br> This also shows itself in how I perform as an employee. I hear the term "empathetic engineering," thrown around often, but how often is it applied in its truest sense? I want others to feel welcome, 
