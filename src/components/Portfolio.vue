@@ -30,4 +30,8 @@
   font-size: 1.7em;
 }
 
+h2 {
+  /* lets try to smooth out the transitions */
+}
+
 </style>
