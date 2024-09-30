@@ -1,5 +1,6 @@
 <template>
     <div class="portList">
+      <img src="../../assets/pres2.png" id="pres2">
       <h2>What I Do</h2>
       <ul style="list-style-type: none;">
         <br>
@@ -28,6 +29,13 @@
 
 .portList__name {
   font-size: 1.7em;
+}
+
+#pres2 {
+  width: 100%;
+  opacity: 0.9;
+  mix-blend-mode: lighten;
+  padding-top: 5%;
 }
 
 h2 {

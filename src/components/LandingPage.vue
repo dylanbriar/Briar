@@ -6,7 +6,7 @@
     <br>
     <div id="pic">
       <h3 id="helloThere">hello there! welcome on in, <br>make yourself at home!</h3>
-      <img src="../../assets/meSmall.jpg" alt="me, a 20 something Caucasian male with a strawberry blonde manbun and red-tinted beard to match wearing a black shirt dotted with flowers, smiling at camera">
+      <img src="../../assets/me.jpg" width="30%" height="auto" alt="me, a 20 something Caucasian male with a strawberry blonde manbun and red-tinted beard to match wearing a black shirt dotted with flowers, smiling at camera">
     </div>
     <div>
         <p>Were you just looking for a resume? <a href="/assets/resume.pdf" download="/assets/resume.pdf">Got it right here for you!</a></p>
