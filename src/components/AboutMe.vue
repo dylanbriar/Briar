@@ -33,7 +33,6 @@ h3 {
 #pres1 {
   width: 90%;
   opacity: 0.9;
-  mix-blend-mode: lighten;
   padding-top: 5%;
 }
 </style>
