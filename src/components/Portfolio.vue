@@ -34,7 +34,7 @@
 #pres2 {
   width: 100%;
   opacity: 0.9;
-  padding-top: 5%;
+  padding-top: 6%;
 }
 
 h2 {
