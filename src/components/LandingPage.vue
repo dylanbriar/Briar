@@ -5,9 +5,16 @@
 <template>
     <br>
     <div id="pic">
-      <h3 id="helloThere">hello there! welcome on in, <br>make yourself at home!</h3>
-      <img src="../../assets/me.jpg" width="30%" height="auto" alt="me, a 20 something Caucasian male with a strawberry blonde manbun and red-tinted beard to match wearing a black shirt dotted with flowers, smiling at camera">
+      <h3 id="helloThere">hello there! welcome on in, <br>make yourself at home! <br><br>My name is Dylan Ezra Briar, and I am a software developer with a heart for people and communication.</h3>
+      <img src="../../assets/me.jpg" width="30%" height="auto" alt="me, a 20 something Caucasian male with a strawberry blonde manbun and red-tinted beard to match wearing a black shirt dotted with flowers, sitting on some stairs and smiling at camera">
     </div>
+    <br>
+    <br>
+    <div id="pic">
+      <img src="../../assets/meBoat.jpg" width="30%" height="auto" alt="me, a 20 something Caucasian male with a strawberry blonde manbun and red-tinted beard to match wearing a white shirt with a black floral pattern, leaning on the railing of a boat and smiling at camera">
+      <p style="max-width: 60%;"> Writing code is always a YouTube tutorial or AI chatbot away, but empathetic software engineering is the next level that I bring to any table I join. <br><br> I'm currently working on a few things, including this website, <a href="https://github.com/oslabs-beta/BuQL">BuQL</a>, and some <a href="/blog">blog posts!</a></p>
+    </div>
+    <br>
     <div>
         <p>Were you just looking for a resume? <a href="/assets/resume.pdf" download="/assets/resume.pdf">Got it right here for you!</a></p>
     </div>
