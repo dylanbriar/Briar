@@ -13,7 +13,7 @@
       <br>
       <div id="pic">
         <img src="../../assets/meBoat.jpg" width="30%" height="auto" alt="me, a 20 something Caucasian male with a strawberry blonde manbun and red-tinted beard to match wearing a white shirt with a black floral pattern, leaning on the railing of a boat and smiling at camera">
-        <p style="max-width: 60%;"> Writing code is always a YouTube tutorial or AI chatbot away, but empathetic software engineering is the next level that I bring to any table I join. <br><br> I'm currently working on a few things, including this website, <a href="https://github.com/oslabs-beta/BuQL">BuQL</a>, and some <a href="/blog">blog posts!</a></p>
+        <p style="max-width: 60%;"> Writing code is always a YouTube tutorial or AI chatbot away, but empathetic software engineering is the next level that I bring to any table I join. <br><br> I'm currently working on a few things, including this website, <a href="https://github.com/oslabs-beta/BuQL">BuQL</a>, and some <router-link to="/blog">blog posts</router-link></p>
       </div>
       <br>
       <div>
