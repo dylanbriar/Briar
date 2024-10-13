@@ -1,4 +1,5 @@
 <template>
+  <Transition appear name="port">
     <div class="portList">
       <img src="../../assets/pres2.png" id="pres2">
       <h2>What I Do</h2>
@@ -22,10 +23,24 @@
         </li>
       </ul>
     </div>
-    <br>
+  </Transition>
+  <br>
 </template>
 
 <style scoped>
+
+.port-leave-from,
+.port-enter-from {
+  opacity: 0;
+}
+.port-leave-to,
+.port-enter-to {
+  opacity: 1;
+}
+.port-leave-active,
+.port-enter-active {
+  transition: opacity 1s;
+}
 
 .portList__name {
   font-size: 1.7em;

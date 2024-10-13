@@ -4,25 +4,29 @@ import DarkMode from './components/DarkMode.vue';
 </script>
 
 <template>
-  <div style="display: flex; justify-content: space-between; align-items: center;">
-    <router-link id="nameToHome" to="/">dylan briar</router-link>
-    <div style="margin: auto 0 -12px;">
-      <br>
-      <DarkMode/>
+  <Transition appear name="topBar">
+    <div> <!--this div serves no purpose other than to make the transition work. kind of sloppy. ill fix when i "get good" -->
+      <div style="display: flex; justify-content: space-between; align-items: center;">
+        <router-link id="nameToHome" to="/">dylan briar</router-link>
+        <div style="margin: auto 0 -12px;">
+          <br>
+          <DarkMode/>
+        </div>
+      </div>
+    <br>
+    <br>
+      <div style="display: flex; justify-content: space-around;">
+        <!-- evidently, these cannot be styled in the style section below for some reason -->
+        <router-link to="/about">about</router-link>
+        <p id="bars">|</p>
+        <router-link to="/portfolio">portfolio</router-link>
+        <p id="bars">|</p>
+        <router-link to="/blog">blog</router-link>
+        <!--  -->
+      </div>
     </div>
-  </div>
-  <br>
-  <br>
-  <div style="display: flex; justify-content: space-around;">
-    <!-- evidently, these cannot be styled in the style section below for some reason -->
-    <router-link to="/about">about</router-link>
-  <p id="bars">|</p>
-    <router-link to="/portfolio">portfolio</router-link>
-  <p id="bars">|</p>
-    <router-link to="/blog">blog</router-link>
-    <!--  -->
-  </div>
-  <router-view></router-view>
+  </Transition>
+  <router-view></router-view> <!--you may be wondering, why not put a transition around this router view instead of each file individually? well for some reason it bugs out-->
   <div id="portSignOff">
       <p>&nbsp;&nbsp;&nbsp;&nbsp;To hear about updates to this website, or updates from my engineering journey in general, check out my <a id="socialsTemp" href="https://twitter.com/DylanBriar">profile on X</a> or <a id="socialsTemp" href="https://www.linkedin.com/in/dylanbriar/">LinkedIn.</a></p>
       <p id="comingSoon">Coming Soon: <br> Socials Dropdown Button <br> Blog posts <br> Fancy Styling <br> (i'm technically fullstack but i'm definitely more comfy on the backend) <br> (don't laugh at me)</p>
@@ -30,6 +34,20 @@ import DarkMode from './components/DarkMode.vue';
 </template>
 
 <style scoped>
+
+
+.topBar-leave-from,
+.topBar-enter-from {
+  opacity: 0;
+}
+.topBar-leave-to,
+.topBar-enter-to {
+  opacity: 1;
+}
+.topBar-leave-active,
+.topBar-enter-active {
+  transition: opacity 1s;
+}
 
 #bars {
   margin: 0;

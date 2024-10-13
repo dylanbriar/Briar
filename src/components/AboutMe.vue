@@ -2,6 +2,7 @@
 </script>
 
 <template>
+  <Transition appear name="abt">
   <div>
     <img src="../../assets/pres1.png" id="pres1">
     <h2>Who I Am</h2>
@@ -17,9 +18,23 @@
         I don't want to stop at "under the hood," I want to dive down into the pistons of the engine.
       </p><br>
   </div>
+  </Transition>
 </template>
 
 <style scoped>
+
+.abt-leave-from,
+.abt-enter-from {
+  opacity: 0;
+}
+.abt-leave-to,
+.abt-enter-to {
+  opacity: 1;
+}
+.abt-leave-active,
+.abt-enter-active {
+  transition: opacity 1s;
+}
 
 p {
   font-size: 1.1em;
