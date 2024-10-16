@@ -1,6 +1,43 @@
 <script setup lang="ts">
 // import LandingPage from './components/LandingPage.vue';
 import DarkMode from './components/DarkMode.vue';
+
+type ShortcutFunction = (e: KeyboardEvent) => void;
+
+//interface for the shortcuts object
+interface Shortcuts {
+  [key: string]: ShortcutFunction;
+}
+
+const shortcuts: Shortcuts = {
+  'ctrl+/': function(e: KeyboardEvent) {
+    e.preventDefault();
+    console.log('Ctrl+/ was pressed');
+  },
+};
+
+function handleKeyPress(e: KeyboardEvent): void {
+  // Create a string representation of the pressed keys
+  const pressed: string[] = [];
+  if (e.ctrlKey) pressed.push('ctrl');
+  if (e.shiftKey) pressed.push('shift');
+  if (e.altKey) pressed.push('alt');
+  if (e.metaKey) pressed.push('meta');
+  
+  // Add the key if it's not a modifier
+  if (![16, 17, 18, 91, 93].includes(e.keyCode)) {
+    pressed.push(e.key.toLowerCase());
+  }
+  
+  const keyCombo = pressed.join('+');
+  
+  if (keyCombo in shortcuts) {
+    shortcuts[keyCombo](e);
+  }
+}
+
+document.addEventListener('keydown', handleKeyPress);
+
 </script>
 
 <template>
