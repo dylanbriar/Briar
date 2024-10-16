@@ -63,10 +63,11 @@ div.switcher {
         background-color: $white;
         transition: 0.6s -0.1s;
 
-        // Inner shape color from light to dark
         + label {
+          //inner shape width on light
           left: 17px;
-          right: 63px;
+          right: 62px;
+          // Inner shape color from light to dark
           background: $black;
           transition: left 0.6s, right 0.4s 0.2s;
         }
@@ -95,10 +96,11 @@ div.switcher {
           transition: color 0.6s 0.2s;
         }
 
-        // Inner shape color from dark to light
         + label {
-          left: 73px;
+          //inner shape width on dark
+          left: 71px;
           right: 10px;
+          // Inner shape color from dark to light
           background: $white;
           transition: left 0.4s 0.2s, right 0.6s, background 0.45s -0.1s;
         }
@@ -129,11 +131,13 @@ div.switcher {
 
     &:before {
       content: 'Light';
+      //where the 'Light' text is positioned
       left: 20px;
     }
 
     &:after {
       content: 'Dark';
+      //where the 'Dark' text is positioned
       right: 20px;
     }
   }
