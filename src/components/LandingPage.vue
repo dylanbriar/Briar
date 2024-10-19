@@ -2,6 +2,8 @@
 </script>
 <!-- window.scrollTo(0, 0) -->
 <template>
+  <!-- library for download image -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <Transition appear name="lP">
     <div>
     <br>
@@ -16,8 +18,9 @@
         <p style="max-width: 60%;"> Writing code is always a YouTube tutorial or AI chatbot away, but empathetic software engineering is the next level that I bring to any table I join. <br><br> I'm currently working on a few things, including this website, <a href="https://github.com/oslabs-beta/BuQL">BuQL</a>, and some <router-link to="/blog">blog posts</router-link></p>
       </div>
       <br>
-      <div>
-        <p>Were you just looking for a resume? <a href="/assets/resume.pdf" download="/assets/resume.pdf">Got it right here for you!</a></p>
+      <div style="display:flex; justify-content: center;">
+        <button class="btn">Resume <i class="fa fa-download"></i></button>
+        <!-- <a id="resume" href="/assets/resume.pdf" download="/assets/resume.pdf">Resume</a> -->
       </div>
     </div>
     </Transition>
@@ -49,6 +52,20 @@
   max-width: 50%;
 }
 
+.btn {
+  background: none;
+  border: none;
+  padding: 6px 15px 7px;
+  cursor: pointer;
+  font-size: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  letter-spacing: 3px;
+  border-radius: 15px;
+}
+
+.btn:hover {
+  background-color: rgba(117, 139, 139, 0.375);
+}
 
 p {
   font-size: 20px;

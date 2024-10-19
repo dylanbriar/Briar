@@ -41,7 +41,7 @@ document.addEventListener('keydown', handleKeyPress);
 </script>
 
 <template>
-  <Transition appear name="topBar">
+  <Transition appear name="page">
     <div> <!--this div serves no purpose other than to make the transition work. kind of sloppy. ill fix when i "get good" -->
       <div style="display: flex; justify-content: space-between; align-items: center;">
         <router-link id="nameToHome" to="/">dylan briar</router-link>
@@ -73,16 +73,16 @@ document.addEventListener('keydown', handleKeyPress);
 <style scoped>
 
 
-.topBar-leave-from,
-.topBar-enter-from {
+.page-leave-from,
+.page-enter-from {
   opacity: 0;
 }
-.topBar-leave-to,
-.topBar-enter-to {
+.page-leave-to,
+.page-enter-to {
   opacity: 1;
 }
-.topBar-leave-active,
-.topBar-enter-active {
+.page-leave-active,
+.page-enter-active {
   transition: opacity 1s;
 }
 

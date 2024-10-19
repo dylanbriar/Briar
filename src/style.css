@@ -41,6 +41,10 @@ a {
   color: var(--links);
 }
 
+button {
+  color: var(--links)
+}
+
 #nameToHome {
   padding-top: 8%;
   font-size: 2.7em;
