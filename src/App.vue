@@ -52,15 +52,16 @@ document.addEventListener('keydown', handleKeyPress);
       </div>
     <br>
     <br>
-      <div style="display: flex; justify-content: space-around;">
+      <nav style="display: flex; justify-content: space-around;">
         <!-- evidently, these cannot be styled in the style section below for some reason -->
+         <!-- maybe make these a little thicker, semi-hard to see in light mode -->
         <router-link to="/about">about</router-link>
         <p id="bars">|</p>
         <router-link to="/portfolio">portfolio</router-link>
         <p id="bars">|</p>
         <router-link to="/blog">blog</router-link>
         <!--  -->
-      </div>
+      </nav>
     </div>
   </Transition>
   <router-view></router-view> <!--you may be wondering, why not put a transition around this router view instead of each file individually? well for some reason it bugs out-->
