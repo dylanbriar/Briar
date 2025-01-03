@@ -53,8 +53,6 @@ document.addEventListener('keydown', handleKeyPress);
     <br>
     <br>
       <nav style="display: flex; justify-content: space-around;">
-        <!-- evidently, these cannot be styled in the style section below for some reason -->
-         <!-- maybe make these a little thicker, semi-hard to see in light mode -->
         <router-link to="/about">about</router-link>
         <p id="bars">|</p>
         <router-link to="/portfolio">portfolio</router-link>

@@ -20,7 +20,6 @@
       <br>
       <div style="display:flex; justify-content: center;">
         <button class="btn"> <a href="/assets/resume.pdf" download="/assets/resume.pdf" style="text-decoration: none">Resume </a><i class="fa fa-download"></i></button>
-        <!-- <a id="resume" href="/assets/resume.pdf" download="/assets/resume.pdf">Resume</a> -->
       </div>
     </div>
     </Transition>
