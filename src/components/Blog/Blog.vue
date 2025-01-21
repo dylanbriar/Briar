@@ -1,7 +1,7 @@
 <template>
   <Transition appear name="blog">
     <div>
-      <img src="../../../assets/pres3.png" id="pres3">
+      <img src="../../../assets/cfPres3.jpg" id="pres3">
       <h2>How I Think</h2>
         <h3>coming soon!</h3>
     </div>
