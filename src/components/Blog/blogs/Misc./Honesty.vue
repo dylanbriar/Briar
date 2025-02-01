@@ -16,11 +16,11 @@ function scrollFunction() {
     mybutton.style.display = "none";
   }
 }
+*/
 
 function scrollToTop (){
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
-*/
 
 function scrollToBottom (){
   window.scrollTo({ top: 105000, behavior: 'smooth' });
@@ -29,7 +29,7 @@ function scrollToBottom (){
 </script>
 
 <template>
-  <p id="sources-snap-button" @click="scrollToBottom()">Go to Sources</p>
+  <p id="snap-down-button" @click="scrollToBottom()">Go to Sources</p>
   <!-- <button id="back-to-top" @click="scrollToTop()" title="Go to top">Snap to Top</button> -->
   <h3>Lately I’ve been thinking a lot about honesty. </h3>
   <p>I think it’s been sort of brewing in my head for the past year or so, but recently two things stirred the pot, so to speak. The first was a video from Theo Browne, aka t3dotgg on YouTube (three sentences into my first blog post and we already have a mention of Theo. That makes me a senior dev, I think). In Getting a Dev Job in 2025, he says at the 9:10 mark, “There's one key thing that has been going down since all of [the A.I. hype] started: trust. Trust is a hard-to-come-by commodity nowadays. Everybody is lying, everybody's AI generating and hallucinating shit. Every resume coming in is questionable at best. But you know what isn't? Your own experience, and the people that you have worked with. The best thing you can possibly have when looking for a job is trust.” (Browne, 2024)
@@ -124,11 +124,12 @@ function scrollToBottom (){
       <br> &nbsp;https://www.youtube.com/live/ESUkmtsTLI0?si=5JwtMkba4mYTGgpN. Accessed 31 Jan. 2025. 
     </p>
   </div>
+  <p id="snap-up-button" @click="scrollToTop()">Back to Top</p>
 </template>
 
 <style scoped>
 
-#sources-snap-button {
+#snap-down-button {
   cursor: help;
   display: inline-block;
   margin-top: 7%;
@@ -178,4 +179,15 @@ p {
   border-radius: 2%;
 }
 
+#snap-up-button {
+  cursor: help;
+  display: inline-block;  
+  margin-top: 4%;
+  margin-bottom: 3%;
+  opacity: .75;
+  font-size: .9em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: italic;
+  text-decoration-line: underline;
+}
 </style>
