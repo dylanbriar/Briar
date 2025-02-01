@@ -103,11 +103,11 @@ function scrollToBottom (){
 
   <h3>I really appreciate honesty, and I wish that was the standard. </h3>
 
-  <p> I would like the message here to be “So let’s all go out and be brutally honest!” I mean, if you feel that conviction, hell yea! Do it! But, for now I know that’s just how the corporate world is. Interviewees will always put on a performance. Interviewers will do the same. Certain team leads, scrum masters, managers, etc. will dance around giving direct criticism. CEOs will continue to say that their company could do AGI if they wanted to and that a rival free product that's better than the CEO’s way too expensive product played unfairly and should be legally hunted down…. tale as old as time. 
+  <p> I would like the message here to be “So let’s all go out and be brutally honest!” I mean, if you feel that conviction, hell yea! Do it! But, for now I know that’s just how the corporate world is. Interviewees will always put on a performance. Interviewers will do the same. Certain team leads, scrum masters, managers, etc. will dance around giving direct criticism. CEOs will continue to say that their company could do AGI if they wanted to and that a rival free product that's better than the CEO’s way too expensive product played unfairly and should be legally hunted down… *cough cough*. 
   <br><br>
     A stereotypical-but-true lesson is that you can’t change the world, but you can change yourself. So, my promise to you, dear reader, is that I’m going forward as best I can in honesty. If I don’t know the answer, I will tell you. If I appreciate what you do, I will tell you. If I think what you’re doing could be done better, I will tell you. If you ask me “How are you doing?” I will tell you (don’t worry, I’ll keep it to a few words, I won’t trauma dump). I’m not going to avoid calling Codesmith a glorified bootcamp, despite what the advisors told me (it is glorified, don’t get me wrong; I think they’re still better, but they really are basically a bootcamp). I’m not going to put a label on what level engineer I am, because at this point I have no idea. 
   <br><br>
-  Yeah, I want a job. Yeah, being honest might hinder that. I don’t know. I might get scared sometimes and mess up this whole honesty pursuit sometimes. There’s some honesty for you right there. But at the end of the day, I’m going to try. 
+  Yeah, I want a job. Yeah, being honest might hinder that. I don’t know. I might get scared sometimes and mess up this whole honesty pursuit. There’s some honesty for you right there. But at the end of the day, I’m going to try. 
   <br><br>
   In the words of the great renown sage of unmatched wisdom and prophetic revelation, Hykeem Jamaal Carter Jr., “Let’s be honest.”  </p>
   <br>
