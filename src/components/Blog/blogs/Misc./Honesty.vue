@@ -1,8 +1,36 @@
 <!-- this is hard coded while I work on setting up Auth 
  enjoy this absolute mess -->
 
+<script setup lang="ts">
+
+//scroll to top button; commented out to avoid error messages in console/IDE
+/*
+let mybutton = document.getElementById('back-to-top');
+
+// window.onscroll = function() {console.log(window.scrollY)}; 
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    //for some reason this is null. vue thing? will check later
+    mybutton.style.display = "flex";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function scrollToTop (){
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+*/
+
+function scrollToBottom (){
+  window.scrollTo({ top: 10500, behavior: 'smooth' });
+}
+
+</script>
+
 <template>
-  <br>
+  <i><p id="sources-snap-button" @click="scrollToBottom()">Go to Sources</p></i>
+  <!-- <button id="back-to-top" @click="scrollToTop()" title="Go to top">Snap to Top</button> -->
   <h3>Lately I’ve been thinking a lot about honesty. </h3>
   <p>I think it’s been sort of brewing in my head for the past year or so, but recently two things stirred the pot, so to speak. The first was a video from Theo Browne, aka t3dotgg on YouTube (three sentences into my first blog post and we already have a mention of Theo. That makes me a senior dev, I think). In Getting a Dev Job in 2025, he says at the 9:10 mark, “There's one key thing that has been going down since all of [the A.I. hype] started: trust. Trust is a hard-to-come-by commodity nowadays. Everybody is lying, everybody's AI generating and hallucinating shit. Every resume coming in is questionable at best. But you know what isn't? Your own experience, and the people that you have worked with. The best thing you can possibly have when looking for a job is trust.” (Browne, 2024)
   <br><br>
@@ -99,6 +127,31 @@
 </template>
 
 <style scoped>
+
+#sources-snap-button {
+  margin-top: 7%;
+  padding-right: 0%;
+  cursor: help;
+  opacity: .8;
+  border: 1px;
+  border-style: solid;
+}
+
+#back-to-top {
+  display: none;
+  position: fixed;
+  top: 20px;
+  right: 45%;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.82);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+}
 
 h3 {
   font-size: 1.6em;
