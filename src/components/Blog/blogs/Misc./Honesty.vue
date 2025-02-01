@@ -115,13 +115,13 @@ function scrollToBottom (){
     <p style="margin: 0%;"><b>Sources</b></p>
     <p id="sources">
       &nbsp;Bos, Wes, et al. “The SQLite Takeover with Turso’s Glauber Costa.” <i>Syntax.Fm</i>, Sentry, 2 Aug. 2024, 
-      <br>https://syntax.fm/show/803/the-sqlite-takeover-with-turso-s-glauber-costa/transcript. Accessed 31 Jan. 2025. 
+      <br><a href="https://syntax.fm/show/803/the-sqlite-takeover-with-turso-s-glauber-costa/transcript">https://syntax.fm/show/803/the-sqlite-takeover-with-turso-s-glauber-costa/transcript</a> Accessed 31 Jan. 2025. 
       <br><br>
       &nbsp;Browne, Theo, creator. <i>Getting a Dev Job in 2025.</i> YouTube, 26 Dec. 2024, 
-      <br> &nbsp;https://youtube.com/shorts/bwye4wxQZXc?si=ltQfsqCys-L4-PjT. Accessed 1 Jan. 2025. 
+      <br> &nbsp;<a href="https://youtube.com/shorts/bwye4wxQZXc?si=ltQfsqCys-L4-PjT">https://youtube.com/shorts/bwye4wxQZXc?si=ltQfsqCys-L4-PjT</a> Accessed 1 Jan. 2025. 
       <br><br>
       &nbsp;Chan, Michael and Taylor Desseyn, creators. <i>Finding a Job Rn with Taylor Desseyn.</i> YouTube, 10 Jan. 2025, 
-      <br> &nbsp;https://www.youtube.com/live/ESUkmtsTLI0?si=5JwtMkba4mYTGgpN. Accessed 31 Jan. 2025. 
+      <br> &nbsp;<a href="https://www.youtube.com/live/ESUkmtsTLI0?si=5JwtMkba4mYTGgpN">https://www.youtube.com/live/ESUkmtsTLI0?si=5JwtMkba4mYTGgpN</a> Accessed 31 Jan. 2025. 
     </p>
   </div>
   <p id="snap-up-button" @click="scrollToTop()">Back to Top</p>
