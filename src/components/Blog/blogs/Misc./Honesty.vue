@@ -16,7 +16,7 @@
   <h3>Context, if you will. </h3>
 
   <p>
-  I was have always been the “why?” kid. From the moment I figured out words I pushed that question until I reached the proverbial dead end of “Cus that’s how God made it.” My grandmother always loves to cite the example of when I started asking questions about how lawyers work because of a TV commercial…when I was 3. So, naturally, science was the way to go. I was fascinated with dinosaurs and bugs, then weather, then linguistics, then astrophysics, then quantum mechanics. I began to go down the road of a Ph.D. in some sort of Physics, but after a year and a half in college I realized I couldn’t really provide for a family, monetarily or emotionally, if I pursued that path, and having a family that I can provide for is my #1 goal/passion, before any career choice.
+  I <s>was</s> have always been the “why?” kid. From the moment I figured out words I pushed that question until I reached the proverbial dead end of “Cus that’s how God made it.” My grandmother always loves to cite the example of when I started asking questions about how lawyers work because of a TV commercial…when I was 3. So, naturally, science was the way to go. I was fascinated with dinosaurs and bugs, then weather, then linguistics, then astrophysics, then quantum mechanics. I began to go down the road of a Ph.D. in some sort of Physics, but after a year and a half in college I realized I couldn’t really provide for a family, monetarily or emotionally, if I pursued that path, and having a family that I can provide for is my #1 goal/passion, before any career choice.
   <br><br>
   That left me in the classic college quandary of “What do I want to do with my life?” 
   <br><br>

@@ -43,8 +43,8 @@ document.addEventListener('keydown', handleKeyPress);
 <template>
   <Transition appear name="page">
     <div> <!--this div serves no purpose other than to make the transition work. kind of sloppy. ill fix when i "get good" -->
-      <div id="title-and-nav">
-        <router-link id="nameToHome" to="/">dylan briar</router-link>
+      <div id="title-and-switcher">
+        <router-link id="name-to-home" to="/">dylan briar</router-link>
         <div style="margin: auto 0 -12px;">
           <br>
           <DarkMode/>
@@ -65,13 +65,13 @@ document.addEventListener('keydown', handleKeyPress);
   <router-view></router-view> <!--you may be wondering, why not put a transition around this router view instead of each file individually? well for some reason it bugs out-->
   <div id="portSignOff">
       <p>&nbsp;&nbsp;&nbsp;&nbsp;To hear about updates to this website, or updates from my engineering journey in general, check out my <a id="socialsTemp" href="https://twitter.com/DylanBriar">profile on X</a> or <a id="socialsTemp" href="https://www.linkedin.com/in/dylanbriar/">LinkedIn.</a></p>
-      <p id="comingSoon">Coming Soon: <br> Socials Dropdown Button <br> Blog posts <br> Fancy Styling <br> (i'm technically fullstack but i'm definitely more comfy on the backend) <br> (don't laugh at me)</p>
+      <p id="comingSoon">Coming Soon: <br> Socials Dropdown switcher <br> Blog posts <br> Fancy Styling <br> (i'm technically fullstack but i'm definitely more comfy on the backend) <br> (don't laugh at me)</p>
   </div>
 </template>
 
 <style scoped>
 
-#title-and-nav {
+#title-and-switcher {
   display: flex; 
   justify-content: space-between; 
   align-items: center;
@@ -116,6 +116,27 @@ a {
 #portSignOff {
   text-align: center;
   font-size: 16px;
+}
+
+@media (max-width: 350px) {
+  #title-and-switcher {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #name-to-home {
+    margin-bottom: 9%;
+  }
+}
+
+/* if your screen is this skinny, please contact me I have so many questions for you */
+@media (max-width: 214px) {
+  #name-to-home {
+    display: none;
+    visibility: hidden;
+  }
 }
 
 </style>
