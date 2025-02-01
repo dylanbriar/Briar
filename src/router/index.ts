@@ -3,6 +3,7 @@ import LandingPage from '../components/LandingPage.vue';
 import AboutMe from '../components/AboutMe.vue'
 import Blog from '../components/Blog/Blog.vue'
 import Portfolio from '../components/Portfolio.vue';
+import Honesty from '../components/Blog/blogs/Misc./Honesty.vue';
 
 const routes = [
   {
@@ -25,6 +26,11 @@ const routes = [
     name: 'Portfolio',
     component: Portfolio
   },
+  {
+    path: '/honesty',
+    name: 'Honesty',
+    component: Honesty
+  }
 ]
 
 const router = createRouter({

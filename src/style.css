@@ -12,6 +12,8 @@
   /* for the theme switching */
   --links: #ebd5c2;
   --ul-bg: #7a7a7a36;
+  --accent: #5E2D00;
+
 
   font-synthesis: none; /*keeps browser from synthesizing italic/bold styling for fonts that don't have their own*/
   text-rendering: optimizeLegibility; /*tells browser to make text more readible with spacing (between words and chars)*/
@@ -22,6 +24,7 @@
 body {
   max-width: 50%;
   margin: 0 auto;
+  padding-top: 40px;
 }
 
 h1 {
@@ -54,6 +57,15 @@ button {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.blog-date {
+  color: var(--links);
+}
+
+#source-box {
+  border: 2px;
+  border-color: var(--accent);
+}
+
 @media (max-width: 660px){
   body {
     max-width: 75%;
@@ -77,6 +89,7 @@ button {
 [color-scheme='dark']{
   background-color: #232c25;
   color: rgba(255, 255, 255, 0.87);
+  --accent: rgba(255, 255, 255, 0.87);
   --links: #ebd5c2;
   --ul-bg: #7a7a7a36;
 } 
@@ -84,6 +97,7 @@ button {
 [color-scheme='light']{
   background-color: #FFEACB;
   color: #5E2D00;
+  --accent: #5E2D00;
   --links: #005812;
   --ul-bg: #ffffff5d;
 }

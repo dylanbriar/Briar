@@ -43,15 +43,15 @@ document.addEventListener('keydown', handleKeyPress);
 <template>
   <Transition appear name="page">
     <div> <!--this div serves no purpose other than to make the transition work. kind of sloppy. ill fix when i "get good" -->
-      <div style="display: flex; justify-content: space-between; align-items: center;">
+      <div id="title-and-nav">
         <router-link id="nameToHome" to="/">dylan briar</router-link>
         <div style="margin: auto 0 -12px;">
           <br>
           <DarkMode/>
         </div>
       </div>
-    <br>
-    <br>
+      <br>
+      <br>
       <nav style="display: flex; justify-content: space-around;">
         <router-link to="/about">about</router-link>
         <p id="bars">|</p>
@@ -71,6 +71,11 @@ document.addEventListener('keydown', handleKeyPress);
 
 <style scoped>
 
+#title-and-nav {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+}
 
 .page-leave-from,
 .page-enter-from {
