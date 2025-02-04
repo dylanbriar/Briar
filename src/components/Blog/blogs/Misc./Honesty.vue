@@ -118,7 +118,7 @@ function scrollToBottom (){
       <br><a href="https://syntax.fm/show/803/the-sqlite-takeover-with-turso-s-glauber-costa/transcript">https://syntax.fm/show/803/the-sqlite-takeover-with-turso-s-glauber-costa/transcript</a> Accessed 31 Jan. 2025. 
       <br><br>
       &nbsp;Browne, Theo, creator. <i>Getting a Dev Job in 2025.</i> YouTube, 26 Dec. 2024, 
-      <br> &nbsp;<a href="https://youtube.com/shorts/bwye4wxQZXc?si=ltQfsqCys-L4-PjT">https://youtube.com/shorts/bwye4wxQZXc?si=ltQfsqCys-L4-PjT</a> Accessed 1 Jan. 2025. 
+      <br> &nbsp;<a href="https://youtu.be/2PiM2e4RtTg?si=augrv-lz0BUidRjH">https://youtu.be/2PiM2e4RtTg?si=augrv-lz0BUidRjH</a> Accessed 1 Jan. 2025. 
       <br><br>
       &nbsp;Chan, Michael and Taylor Desseyn, creators. <i>Finding a Job Rn with Taylor Desseyn.</i> YouTube, 10 Jan. 2025, 
       <br> &nbsp;<a href="https://www.youtube.com/live/ESUkmtsTLI0?si=5JwtMkba4mYTGgpN">https://www.youtube.com/live/ESUkmtsTLI0?si=5JwtMkba4mYTGgpN</a> Accessed 31 Jan. 2025. 
