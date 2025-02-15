@@ -60,7 +60,7 @@ function scrollToBottom (){
   <br><br>
   So yes, we took that and ran with it. I immediately began self studying through online resources, and attended one grand institution of infinite wisdom known as YouTube University (shoutout to Harvard’s CS50x). Right off the bat, I was able to tap into that love of the question “why?” I learned why green screens work, I learned why bits can be used to represent numbers. I learned about variables, strings, booleans, arrays. Then I learned about console.log and JavaScript array methods, and then…and THEN… I learned about…wait for it…functions. You’re telling me that I could basically make my OWN methods? That do whatever I want? And now..what’s this? I could put them inside an object? And I could name these things whatever I want?
   <br><br>
-  All the while I was looking into what the “best”coding bootcamp was. Then, after – I kid you not – three weeks of research, including attending webinars and asking questions, I finally landed on one called Codesmith.
+  All the while I was looking into what the “best” coding bootcamp was. Then, after – I kid you not – three weeks of research, including attending webinars and asking questions, I finally landed on one called Codesmith.
   </p>
 
   <h3>Let me tell you a bit about Codesmith.</h3>
