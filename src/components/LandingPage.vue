@@ -19,7 +19,7 @@
       </div>
       <br>
       <div style="display:flex; justify-content: center;">
-        <button class="btn"> <a href="/assets/resume.pdf" download="/assets/resume.pdf" style="text-decoration: none">Resume </a><i class="fa fa-download"></i></button>
+        <button class="resume-btn"> <a href="/assets/resume.pdf" download="/assets/resume.pdf" style="text-decoration: none">Resume </a><i class="fa fa-download"></i></button>
       </div>
     </div>
     </Transition>
@@ -51,7 +51,7 @@
   max-width: 50%;
 }
 
-.btn {
+.resume-btn {
   background: none;
   border: none;
   padding: 6px 15px 7px;
@@ -60,10 +60,13 @@
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
   letter-spacing: 3px;
   border-radius: 15px;
+  background-color: none;
+  transition: background-color 0.3s ease;
 }
 
-.btn:hover {
+.resume-btn:hover {
   background-color: rgba(117, 139, 139, 0.375);
+  transition: 0.3s
 }
 
 p {
