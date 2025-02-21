@@ -57,6 +57,16 @@ button {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.nav-link {
+  filter: drop-shadow(0 0 0 transparent); 
+  transition: filter 0.3s ease;  
+}
+
+.nav-link:hover {
+  filter: drop-shadow(0 0 .6rem var(--links));
+  transition: 0.3s;
+}
+
 .blog-date {
   color: var(--links);
 }

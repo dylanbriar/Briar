@@ -57,11 +57,11 @@ function handleScheduleClick(){
       <br>
       <br>
       <nav style="display: flex; justify-content: space-around;">
-        <router-link to="/about">about</router-link>
+        <router-link to="/about" class="nav-link">about</router-link>
         <p id="bars">|</p>
-        <router-link to="/portfolio">portfolio</router-link>
+        <router-link to="/portfolio" class="nav-link">portfolio</router-link>
         <p id="bars">|</p>
-        <router-link to="/blog">blog</router-link>
+        <router-link to="/blog" class="nav-link">blog</router-link>
         <!--  -->
       </nav>
     </div>
