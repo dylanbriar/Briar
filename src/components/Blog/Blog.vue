@@ -1,7 +1,7 @@
 <template>
   <Transition appear name="blog">
     <div>
-      <img src="../../../assets/cfPres3.jpg" id="pres3">
+      <img src="../../../public/cfPres3.jpg" id="pres3">
       <h2>How I Think</h2>
       <p class="blog-date">1/31/25</p>
       <router-link to="/honesty" class="blog-titles">Honesty: My Story and Others</router-link>

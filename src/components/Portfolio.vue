@@ -1,7 +1,7 @@
 <template>
   <Transition appear name="port">
     <div class="portList">
-      <img src="../../assets/cfPres2.jpg" id="pres2">
+      <img src="../../public/cfPres2.jpg" id="pres2">
       <h2>What I Do</h2>
       <ul style="list-style-type: none;">
         <br>
@@ -52,8 +52,8 @@
   padding-top: 6%;
 }
 
-h2 {
-  /* lets try to smooth out the transitions */
-}
+/* h2 {
+  /* lets try to smooth out the transitions 
+} */
 
 </style>
