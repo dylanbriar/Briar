@@ -4,7 +4,7 @@
 <template>
   <Transition appear name="abt">
   <div>
-    <img src="../../public/cfPres.jpg" id="pres1">
+    <img src="/cfPres.jpg" id="pres1">
     <h2>Who I Am</h2>
     <h3>I am a software engineer with a passion first and foremost for <b>people</b>.</h3>
       <p>Before my career as an engineer, I spent years in customer service and event management. Bad customer service or hospitality always bothers me, and that includes digitally. Inconsiderate UI/UX can ruin someone's day, driving business way, which ruins my day. Let's fix that.
