@@ -69,7 +69,7 @@ function handleScheduleClick(){
   <router-view></router-view> <!--you may be wondering, why not put a transition around this router view instead of each file individually? well for some reason it bugs out-->
   <div id="portSignOff">
       <p>&nbsp;&nbsp;&nbsp;&nbsp;To hear about updates to this website, or updates from my engineering journey in general, check out my <a id="socialsTemp" href="https://twitter.com/DylanBriar">profile on X</a> or <a id="socialsTemp" href="https://www.linkedin.com/in/dylanbriar/">LinkedIn.</a></p>
-      <p id="comingSoon">Coming Soon: <br> Socials Dropdown switcher <br> Blog posts <br> Fancy Styling <br> (i'm technically fullstack but i'm definitely more comfy on the backend) <br> (don't laugh at me)</p>
+      <p id="comingSoon">Coming Soon:<br> Socials Dropdown<br> More blog posts <br> Fun Styling <br> Keyboard Shortcuts</p>
   </div>
   <button class="button-57" role="button" @click="handleScheduleClick()"><span class="text">Want to Chat?</span><span>Schedule a call!</span></button>
 </template>
