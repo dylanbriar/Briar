@@ -6,7 +6,7 @@
   "scripts": {
     "start": "vite",
     "dev": "vite",
-    "build": "vue-tsc && vite build && cp src/assets/*.pdf dist/assets/",
+    "build": "vue-tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
