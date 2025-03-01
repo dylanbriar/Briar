@@ -68,7 +68,7 @@ button {
 }
 
 .blog-date {
-  color: var(--links);
+  color: var(--accent);
 }
 
 #source-box {

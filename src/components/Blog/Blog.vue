@@ -3,6 +3,9 @@
     <div>
       <img src="/cfPres3.jpg" id="pres3">
       <h2>How I Think</h2>
+      <p class="blog-date">2/28/25</p>
+      <router-link to="/cauthionary" class="blog-titles">A Cauthionary Tale from Another Timeline</router-link>
+      <br>
       <p class="blog-date">1/31/25</p>
       <router-link to="/honesty" class="blog-titles">Honesty: My Story and Others</router-link>
     </div>

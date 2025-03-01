@@ -4,6 +4,7 @@ import AboutMe from '../components/AboutMe.vue'
 import Blog from '../components/Blog/Blog.vue'
 import Portfolio from '../components/Portfolio.vue';
 import Honesty from '../components/Blog/blogs/Misc./Honesty.vue';
+import Cauthionary from '../components/Blog/blogs/Misc./Cauthionary.vue';
 
 const routes = [
   {
@@ -30,6 +31,11 @@ const routes = [
     path: '/honesty',
     name: 'Honesty',
     component: Honesty
+  },
+  {
+    path: '/cauthionary',
+    name: 'Cauthionary',
+    component: Cauthionary,
   }
 ]
 
