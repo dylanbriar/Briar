@@ -13,7 +13,7 @@
  </script>
 
  <template>
-    <p id="snap-down-button" @click="scrollToBottom()">Go to Sources</p>
+    <p id="snap-down-button" @click="scrollToBottom()">Scroll to the end</p>
     <h1>A Cauthionary Tale from Another</h1><h1> Timeline</h1>
 <br>
     <p>If you hadn't heard, (it's all over social media, people are raving about it), I'm currently
@@ -49,7 +49,7 @@
     secure one these days is SHA-256. That's easy enough to implement; all he has to do is "tell" the
     Web Crypto API to use that algorithm specifically. It looks something like this:</p>
 
-    <pre id="codeblock">
+    <pre>
 //im lazy and dont feel like adding color to this
 async function hashPassword(password) {
   try {
@@ -99,7 +99,7 @@ async function hashPassword(password) {
     that hackers with good GPUs can't compute as many billions of hashes per second. Bcrypt falls in that
     goldilocks zone. The code looks something like this:</p>
 
-    <pre id="codeblock">
+    <pre>
 const bcrypt = require('bcrypt');
 const saltRounds = 10; // Typically a value between 10 and 12
 
@@ -274,7 +274,7 @@ if (!allowedCharacters.test(req.body.password)){
     you'd have to take into account with it but you've done such a great job with that so far."</p>
 
     <p>Years go by. Decades, actually. Dylan has nothing left but his website, a laptop, and his wife. With
-    the heartbeat monitor's BEEP, BEEP, BEEP as his only music, Dylan lifts his shriveled, withered hand and presses the
+    the heartbeat monitor's <i>BEEP, BEEP, BEEP</i> as his only music, Dylan lifts his shriveled, withered hand and presses the
     "Merge branch" button for the last time. All security has been accounted for, even the security
     rules that have changed over the years. He can finally rest.</p>
 
@@ -285,20 +285,22 @@ if (!allowedCharacters.test(req.body.password)){
     <p>The nurse nods. "That's a great idea! I'm also curious to hear what kind of security you
     have in place now that LLMs are writing quantum code that is-"</p>
 
-    <p>BEEEEEEEEEEP</p>
+    <p><i>BEEEEEEEEEEP</i></p>
     <br>
 
     <p>Thankfully, we are not in that timeline. We are in the timeline where, before writing a letter of sign-in code, Dylan watched a
     <a href="https://www.youtube.com/watch?v=lxslnp-ZEMw">Theo video</a>, in which Theo says, "User password is a
-    scourge and it needs to die." We are in the timeline where Dylan just reached for Clerk.</p>
+    scourge and it needs to die." We are in the timeline where Dylan just reached for Clerk, then wrote a blog post about the other timeline.</p>
 
     <p>Thank god.</p>
+
+    <p id="fineprint">(In case it wasn't clear, I'm not sponsored, it just looks like Clerk is genuinely the best option for me :) )</p>
     <p id="snap-up-button" @click="scrollToTop()">Back to Top</p>
 </template>
 
 <style scoped>
 
-#codeblock {
+pre {
   border-radius: 10px;
   background-color: #7a7a7a36;
 }
@@ -363,6 +365,11 @@ p {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: italic;
   text-decoration-line: underline;
+}
+
+#fineprint {
+  font-size: .9em;
+  text-align: center;
 }
 
 </style>
