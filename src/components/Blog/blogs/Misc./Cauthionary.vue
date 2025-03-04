@@ -171,7 +171,7 @@ const allowedCharacters = /^[a-zA-Z0-9!#$%&+,./:;?@[\]^_`{|}~-]+$/;
 //if any character in the password is not defined in the allow list, return an error
 if (!allowedCharacters.test(req.body.password)){
   return next({
-    log:'Invalid character detected in the request body in securityController',
+    log:'Invalid character detected in the request body',
     status: 403,
     message: 'Invalid character, try again.'
   })
